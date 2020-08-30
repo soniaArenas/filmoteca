@@ -1,0 +1,22 @@
+body{
+	background-image: url("../Img/purple.jpg");
+}
+header{
+	background-color:#ACE087;
+	color:#DB87E0;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+#addBtn{
+	background-color:#ACE087;
+	color:#904A94;
+	font-weight: bold;
+	width: 10%;
+	height: auto;
+	border-radius: 5px;
+}
+
+
+
