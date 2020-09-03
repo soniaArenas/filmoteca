@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Filmoteca</title>
 
-  <link rel="stylesheet" href="Assets/Css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
@@ -32,6 +32,35 @@
 </div>
 
 
+<script>
+   $(document).ready(function() { 
+loadFilms("name","asc");
+ $('#addFilmDiv').hide();
+            $("#addBtn").click(function() { 
+               if ($('#addFilmDiv').is(':visible')) {
+    $('#addFilmDiv').hide();
+} else {
+    $('#addFilmDiv').show();
+}
+ }); 
 
+
+     
+        }); 
+   function loadFilms(column,order){
+
+        $.ajax({
+                type: "POST",
+                url: "controllers/getFilmsController.php",
+               data: { orderBy: column, order: order },
+                success: function(data){
+                    
+                    $("#result").html(data);
+                    
+                }
+            });
+    };
+
+</script>
 </body>
 </html>
