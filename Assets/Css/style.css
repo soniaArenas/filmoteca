@@ -1,35 +1,68 @@
 body{
-	background-image: url("../img/purple.jpg");
+	background-image: url("../img/fondoFilm.jpg");
+	background-color: #cccccc; 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	overflow: scroll;
+	overflow-x: hidden;
+	::-webkit-scrollbar {
+	 background: #BF7D2C; 
+  width: 1%;
+}
+
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #E0A755; 
+  border-radius: 10px;
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: #BF7D2C; 
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
 }
 
 #title{
-	background-color:#ACE087;
-	color:#DB87E0;
+	background-color: #E0A755; 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+	color: black;
 	font-weight: bold;
 	text-align: center;
-	height: 40px;
-	width: 60%;
+	height: 100%;
+	width: 80%;
 	border-radius: 20px;
 	margin: 0 auto;
 	
 }
 
 #content{
-background-color:#D67FFF77;
-max-width: 60%;
-margin: 0 auto;
-border-radius: 20px;
+	
+	max-width: 80%;
+	margin: 0 auto;
+	border-radius: 20px;
+}
+table{
+	width: 60%;
 }
 #searchDiv{
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
+	margin: 0% auto;
+	
 
 }
 
 .btn{
-	background-color:#904A94;
-	color:#ACE087;
+	background-color:#E0A755;
+	color:black;
 	font-weight: bold;
 	border-radius: 5px;
 
@@ -41,13 +74,15 @@ border-radius: 20px;
 #addFilmDiv{
 
 	border-radius: 10px;
+	display: flex;
+	justify-content: center;
 	
 }
 
 .headTable{
-	background-color:color:#ACE087;
+	background-color: #BF7D2C;
 	font-weight: bold;
-	color:  
+	text-align: center; 
 }
 #result{
 	display: flex;
@@ -58,9 +93,14 @@ td{
 	margin:10%;
 	
 }
+#result{
+	display: flex;
+	justify-content: center;
+}
+
 .clsEven{
-	background-color:#ACE087;
+	background-color:#CC9945;
 }
 .clsOdd{
-	background-color:#904A94;
+	background-color:#BF7D2C;
 }
