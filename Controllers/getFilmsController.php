@@ -6,7 +6,7 @@ include("../models/listFilmsModel.php");
 
 echo " <table><thead>
 <tr class='headTable'>
-<td>Nombre Película</td>
+<td>Título</td>
 <td>Año</td>
 </tr></thead><tbody> ";
 
@@ -28,7 +28,7 @@ while ($reg=mysqli_fetch_row($query)){
 
 	foreach($reg as $change){
 
-		echo "<td>".$change."</td>";
+		echo "<td>".ucfirst($change)."</td>";
 	}
 	echo "</tr>";
 

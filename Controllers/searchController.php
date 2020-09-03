@@ -3,8 +3,8 @@ $name = $_POST['name'];
 include("../models/searchModel.php");
 
 echo " <table>
-<tr>
-<td>Nombre Película</td>
+<tr class='headTable'>
+<td>Título</td>
 <td>Año</td>
 </tr> ";
 
@@ -26,10 +26,10 @@ while ($reg=mysqli_fetch_row($query)){
 
 	foreach($reg as $change){
 
-		echo "<td>".$change."</td>";
+		echo "<td>".ucfirst($change)."</td>";
 	}
 	echo "</tr>";
-
+$numRow++;
 }
 echo "</table>";
 
