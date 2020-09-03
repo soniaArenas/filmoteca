@@ -1,22 +1,66 @@
 body{
-	background-image: url("../Img/purple.jpg");
+	background-image: url("../img/purple.jpg");
 }
-header{
+
+#title{
 	background-color:#ACE087;
 	color:#DB87E0;
 	font-weight: bold;
 	text-align: center;
+	height: 40px;
+	width: 60%;
+	border-radius: 20px;
+	margin: 0 auto;
+	
 }
 
+#content{
+background-color:#D67FFF77;
+max-width: 60%;
+margin: 0 auto;
+border-radius: 20px;
+}
+#searchDiv{
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
 
-#addBtn{
-	background-color:#ACE087;
-	color:#904A94;
+}
+
+.btn{
+	background-color:#904A94;
+	color:#ACE087;
 	font-weight: bold;
-	width: 10%;
-	height: auto;
 	border-radius: 5px;
+
+
 }
 
 
 
+#addFilmDiv{
+
+	border-radius: 10px;
+	
+}
+
+.headTable{
+	background-color:color:#ACE087;
+	font-weight: bold;
+	color:  
+}
+#result{
+	display: flex;
+	justify-content: center;
+}
+td{
+	padding:2%;
+	margin:10%;
+	
+}
+.clsEven{
+	background-color:#ACE087;
+}
+.clsOdd{
+	background-color:#904A94;
+}
