@@ -60,10 +60,19 @@ loadFilms("name","asc");
 
          }); 
 
+ $("#btnAsc").click(function() { 
+         loadFilms("year","asc");
 
+         }); 
+   $("#btnDes").click(function() { 
+         loadFilms("year","desc");
+
+         }); 
+
+   
      
         }); 
-   
+
    function loadFilms(column,order){
 
         $.ajax({
