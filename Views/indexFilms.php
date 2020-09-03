@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Filmoteca</title>
 
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="Assets/Css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
@@ -64,7 +64,7 @@
 
      $.ajax({
       type: "POST",
-      url: "controllers/addController.php",
+      url: "Controllers/addController.php",
       data: { name: name2, year: year2 },
       success: function(data){
        loadFilms("name","asc");
@@ -90,7 +90,7 @@
      searchFilm = searchFilm.toLowerCase();
      $.ajax({
       type: "POST",
-      url: "controllers/searchController.php",
+      url: "Controllers/searchController.php",
       data: { name: searchFilm },
       success: function(data){
         
@@ -109,7 +109,7 @@
 
     $.ajax({
       type: "POST",
-      url: "controllers/getFilmsController.php",
+      url: "Controllers/getFilmsController.php",
       data: { orderBy: column, order: order },
       success: function(data){
         

@@ -1,6 +1,6 @@
 <?php
 $name = $_POST['name'];
-include("../models/searchModel.php");
+include("../Models/searchModel.php");
 
 echo " <table>
 <tr class='headTable'>

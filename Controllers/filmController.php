@@ -1,5 +1,5 @@
 <?php
-include("views/indexFilms.php")
+include("Views/indexFilms.php")
 
 
 ?>

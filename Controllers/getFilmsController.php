@@ -2,7 +2,7 @@
 $orderBy = $_POST['orderBy'];
 $order=$_POST['order'];
 
-include("../models/listFilmsModel.php");
+include("../Models/listFilmsModel.php");
 
 echo " <table><thead>
 <tr class='headTable'>

@@ -1,5 +1,5 @@
 <?php
-include("../config/dbConnection.php");
+include("../Config/dbConnection.php");
 
 $queryDb="SELECT * from films WHERE name like '".$name."%' ORDER BY name ASC";
 	
