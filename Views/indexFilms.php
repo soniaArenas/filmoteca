@@ -21,7 +21,7 @@
     <div id="addFilmDiv">
       <input type="text" placeholder="Nombre" id="name">
       <input type="text" placeholder="Año" id="year">
-      <button class="btn" id="addFilm">Añadir</button>
+      <button class="btn" id="setFilm">Añadir</button>
     </div>
     
     <div id="result">
@@ -55,7 +55,7 @@
 
    
     $("#setFilm").click(function() { 
-      
+
      var name2 = $('#name').val();
      name2 = name2.toLowerCase();
      var year2 = $('#year').val();
