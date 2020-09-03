@@ -1,29 +1,39 @@
 <?php
 $orderBy = $_POST['orderBy'];
 $order=$_POST['order'];
+
 include("../models/listFilmsModel.php");
 
 echo " <table><thead>
-    <tr class='headTable'>
-      <td>Nombre Película</td>
-      <td>Año</td>
-    </tr></thead><tbody> ";
-    $numRow=0;
-    $clsRow="";
-	while ($reg=mysqli_fetch_row($query)){
-		  if ($numRow%2==0){
-$clsRow="clsEven";
+<tr class='headTable'>
+<td>Nombre Película</td>
+<td>Año</td>
+</tr></thead><tbody> ";
 
-		  }else{
-		  	$clsRow="clsOdd";
-		  }
-		echo "<tr class=".$clsRow.">";
-		foreach($reg as $change){
-			echo "<td>".$change."</td>";
-			}
-			echo "</tr>";
-		$numRow++;
+$numRow=0;
+$clsRow="";
+
+while ($reg=mysqli_fetch_row($query)){
+
+	if ($numRow%2==0){
+
+		$clsRow="clsEven";
+
+	}else{
+
+		$clsRow="clsOdd";
 	}
-	echo "</tbody></table>";
+
+	echo "<tr class=".$clsRow.">";
+
+	foreach($reg as $change){
+
+		echo "<td>".$change."</td>";
+	}
+	echo "</tr>";
+
+	$numRow++;
+}
+echo "</tbody></table>";
 
 ?>
