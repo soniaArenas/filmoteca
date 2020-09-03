@@ -1,8 +1,9 @@
 <?php
-include("../config/db.php");
+include("../config/dbConnection.php");
 
 $queryDb="SELECT * from films ORDER BY ".$orderBy." ".$order."";
 	
 	$query=mysqli_query($connect,$queryDb);
+	mysqli_close($connect);
 
 ?>

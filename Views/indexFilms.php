@@ -44,9 +44,26 @@ loadFilms("name","asc");
 }
  }); 
 
+ $("#addFilm").click(function() { 
+         var name2 = $('#name').val();
+         name2 = name2.toLowerCase();
+          var year2 = $('#year').val();
+           $.ajax({
+                type: "POST",
+                url: "controllers/addController.php",
+                 data: { name: name2, year: year2 },
+                success: function(data){
+                   loadFilms("name","asc");
+                    
+                }
+            });
+
+         }); 
+
 
      
         }); 
+   
    function loadFilms(column,order){
 
         $.ajax({
