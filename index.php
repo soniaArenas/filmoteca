@@ -1,7 +1,7 @@
 <?php 
 	
 
-include("controllers/filmController.php");
+include("Controllers/filmController.php");
 
 
 ?>
