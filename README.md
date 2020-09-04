@@ -53,6 +53,10 @@ Lo primero que he realizado para comenzar el desarrollo del proyecto ha sido cre
 	     **Js-js.js**: el archivo javascript con las funciones Ajax.
 
 
+## Para ejecutar la aplicación correctamente
+
+He adjuntado el archivo .sql para que se pueda exportar al gestor de base de datos y nos cree la tabla con sus campos. De este modo, descargando y colocando los archivos del proyecto en nuestra carpeta de archivos locales, en mi caso htdocs de Xampp, y creando la base de datos y exportando el archivo .sql, ya podríamos ejecutar la web en local.
+También he subido el proyecto a mi servidor y creado la base de datos MySql en él, para que se pueda acceder sin tener que ejecutarla simulando un servidor web, y que se pueda comprobar su funcionamiento en un servidor web real. El enlace directo es el siguiente: www.soniapuente.com/filmoteca
 	 
 ## Futuras mejoras
 
