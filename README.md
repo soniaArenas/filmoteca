@@ -21,11 +21,14 @@ Lo primero que he realizado para comenzar el desarrollo del proyecto ha sido cre
 		
 	    **filmController.php**: Controlador encargado de cargar la vista principal.
 	 
-	    **getFilmsController.php**: Controlador encargado de llamar al modelo que obtiene la lista de la base de datos, y manipula los datos que el modelo le devuelve, para mandarlos a la vista.
+	    **getFilmsController.php**: Controlador encargado de llamar al modelo que obtiene la lista de la base de datos,
+	    y manipula los datos que el modelo le devuelve, para mandarlos a la vista.
 	 
-	    **searchController.php**: Controlador encargado de pasar al modelo el dato que ha de buscar para que devuelva las películas correspondientes, manipular los datos y enviarlos a la vista.
+	    **searchController.php**: Controlador encargado de pasar al modelo el dato que ha de buscar para que devuelva 
+	    las películas correspondientes, manipular los datos y enviarlos a la vista.
 	 
-	    **addController.php**: Controlador encargado de pasar al modelo los datos del nuevo registro para que éste lo inserte en la base de datos.
+	    **addController.php**: Controlador encargado de pasar al modelo los datos del nuevo registro para que éste lo 
+	    inserte en la base de datos.
 	 
 	 3-->**Vistas**:
 		 
@@ -33,9 +36,11 @@ Lo primero que he realizado para comenzar el desarrollo del proyecto ha sido cre
 	
 	 4-->**Modelos**:
 		
-	     **listFilmsModel.php**: El encargado de realizar la consulta a la base de datos, obtener la lista completa y devolverla al controlador.
+	     **listFilmsModel.php**: El encargado de realizar la consulta a la base de datos, obtener la lista completa 
+	     y devolverla al controlador.
 	 
-	     **searchModel.php**: Se encarga de consultar a la base de datos las películas que se ajusten a los parámetros requeridos y devolver los resultados al controlador.
+	     **searchModel.php**: Se encarga de consultar a la base de datos las películas que se ajusten a los parámetros 
+	     requeridos y devolver los resultados al controlador.
 	
 	     **addModel.php**: El encargado de insertar en la base de datos el registro que ha obtenido desde el controlador.
 	
