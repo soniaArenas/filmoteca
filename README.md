@@ -9,7 +9,7 @@ Esta es una prueba para un proceso de selección en la cual se me pedía:
 
 # Implementación
 
-Para realizar este proyecto comencé creando un repositorio con **Git** en local y luego subiéndolo a mi repositorio de **GitHub**, donde para comenzar a planificarme abrí unas **tareas** para dividir y organizar los primeros pasos que debía de seguir. Intentando así implementar algunas de las **buenas prácticas** en cuanto a metodologías ágiles de trabajo que conozco. Siguiendo la misma línea de intentar cumplir con buenas prácticas, he intentado que todo el código sea lo suficientemente claro y **autodocumentado** para que, sin la necesidad de tener comentarios, se entienda en todo momento lo que hace cada parte del código.
+Para realizar este proyecto comencé creando un repositorio con **Git** en local y luego subiéndolo a mi repositorio de **GitHub**, donde para comenzar a planificarme abrí unas **tareas** para dividir y organizar los primeros pasos que debía de seguir. Intentando así implementar algunas de las **buenas prácticas** en cuanto a metodologías ágiles de trabajo que conozco. Siguiendo la misma línea de intentar cumplir con buenas prácticas, he intentado que todo el código sea lo suficientemente claro y **autodocumentado** para que, sin la necesidad de tener comentarios, se entienda en todo momento lo que hace cada parte del código y procurando que sea **escalable**, pudiendo así añadir nuevas funcionalidades en un futuro si se desea.
 
 ## Planificación del desarrollo
 
@@ -51,7 +51,10 @@ Lo primero que he realizado para comenzar el desarrollo del proyecto ha sido cre
 	 
 ## Futuras mejoras
 
-Refactorizar el código.
+Refactorizar el código. 
+
+Inlcuir imágenes de las películas y una breve escripción extraida de alguna web como Imdb.
+
 Mejoras en la base de datos, como una conexión a Imdb que extraiga las valoraciones de las películas que tenemos registradas por ejemplo.
 
 ## Stack
